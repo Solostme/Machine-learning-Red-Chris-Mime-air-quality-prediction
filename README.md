@@ -12,17 +12,14 @@ This project aims to predict the air quality in the Red Chris Mine mining area, 
 - Data includes pollutant concentrations, meteorological conditions (e.g., temperature, humidity, wind speed, precipitation), and other relevant indicators.  
 
 ## Project Structure
-- [src/](src)
-  - [main.py](src/main.py)
-  - [helper.py](src/helper.py)
-- [docs/](docs)
-  - [README.md](docs/README.md)
-  - [api_spec.md](docs/api_spec.md)
-- [tests/](tests)
-  - [test_main.py](tests/test_main.py)
-  - [test_helper.py](tests/test_helper.py)
-- [.gitignore](.gitignore)
-- [requirements.txt](requirements.txt)
+- data
+  - [air.csv](air.csv)
+  - [weather.csv](weather.csv)
+- doc
+  - [README.md](README.md)
+- code
+  - [Data collection.ipynb](Datacollection.ipynb)
+  - [Real time Prediction.ipynb](RealtimePrediction.ipynb)
 
 ## Instructions
 ### Environment Setup
